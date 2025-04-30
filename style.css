@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body {
     background-color: #333;
     color:#fff;
     font-family: "Roboto", sans-serif;
+}
+
+.lesson-1 span {
+    color: #7a7a7a;
+}
+
+.lesson-1 {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -12,27 +20,20 @@ body {
     margin: auto;
 }
 
-h1, h2, p  {
-    display: flex;
-    justify-content: center;
-}
 
-img {
+.lesson-1 img {
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
 }
 
-a {
+.lesson-1 a {
     color: #ffffff;
   }
 
-  ul {
 
-  }
-
-button {
+.lesson-1 button {
     background-color: #fff;
     border-radius: 20px;
     margin: 10px;
@@ -40,4 +41,36 @@ button {
     font-weight: 600;
     border: none;
     outline: none;
+}
+
+
+.lesson-2 {
+    margin: 60px 0 0 0 ;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #7a7a7a7c;
+    transition: 0.5s;
+    width: 220px;
+    height: 170px;
+}
+
+.card:hover{
+    background-color: #fffffcde;
+    color: #333;
+    scale: 1.03;
 }
